@@ -29,5 +29,4 @@ class BadgeTest extends WebPage
 		$this->Controls->AddRange($badge1, $badge2, $badge3, $badge4);
 	}
 }
-SetStartupPage('BadgeTest');
 ?>
