@@ -7,7 +7,7 @@ class NOLOHBadge extends Panel
 	{
 		parent::Panel($left, $top, null, null);
 		$this->ToolTip = 'powered by NOLOH';
-		$imagePath = GetRelativePath(dirname($_SERVER['SCRIPT_FILENAME']), dirname(__FILE__) .'/Images');
+		$imagePath = GetRelativePath(dirname($_SERVER['SCRIPT_FILENAME']), dirname(__FILE__) .'Images');
 		if($textOnly)
 		{
 			$poweredBy = new Link('http://www.noloh.com', 'powered by noloh');
